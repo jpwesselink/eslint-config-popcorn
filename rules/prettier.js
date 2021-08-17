@@ -1,3 +1,21 @@
 module.exports = {
-  "prettier/prettier": ["error"],
+    'prettier/prettier': [
+        'error',
+        {
+            tabWidth: 4,
+            endOfLine: 'auto',
+            singleQuote: true,
+            trailingComma: 'all',
+            overrides: [
+                {
+                    files: '.editorconfig',
+                    options: { parser: 'yaml' },
+                },
+                {
+                    files: 'LICENSE',
+                    options: { parser: 'markdown' },
+                },
+            ],
+        },
+    ],
 };

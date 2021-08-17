@@ -22,9 +22,7 @@
  | prettier                          |  x         |  x         |  x               |
  | typescript                        |            |  x         |  x               |
 
-
 ## What
-
 
 This setup treats the specific configurations for JavaScript, TypeScript and TypeScript + React as first class citizens.
 
@@ -35,22 +33,22 @@ What this means is the following:
 
 ## Usage
 
-### Installation 
+### Installation
 
-Install this configuration in your project 
+Install this configuration in your project
 
 ```sh
-$ yarn add eslint-config-popcorn
+yarn add eslint-config-popcorn
 ```
 
 ### Environment specific installation
 
 #### JavaScript
 
-Install peer dependencies 
+Install peer dependencies
 
 ```sh
-$ npx eslint-config-popcorn installPeerDeps javascript
+npx eslint-config-popcorn installPeerDeps javascript
 ```
 
 Update your eslint configuration
@@ -61,13 +59,12 @@ Update your eslint configuration
 }
 ```
 
-
 #### TypeScript
 
-Install peer dependencies 
+Install peer dependencies
 
 ```sh
-$ npx eslint-config-popcorn installPeerDeps typescript
+npx eslint-config-popcorn installPeerDeps typescript
 ```
 
 Update your eslint configuration
@@ -80,10 +77,10 @@ Update your eslint configuration
 
 #### TypeScript and React
 
-Install peer dependencies 
+Install peer dependencies
 
 ```sh
-$ npx eslint-config-popcorn installPeerDeps typescript-react
+npx eslint-config-popcorn installPeerDeps typescript-react
 ```
 
 Update your eslint configuration
@@ -93,4 +90,3 @@ Update your eslint configuration
    extends: ["popcorn/typescript-react"]
 }
 ```
-

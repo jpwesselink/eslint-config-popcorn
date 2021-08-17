@@ -2,4 +2,5 @@ const updateNotifier = require('update-notifier');
 
 const pkg = require('../package.json');
 
-updateNotifier({ pkg }).notify();
+const notifier = updateNotifier({ pkg }).notify();
+console.log(notifier.update);

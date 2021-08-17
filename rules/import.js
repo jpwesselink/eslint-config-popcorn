@@ -1,6 +1,7 @@
 module.exports = {
     'import/no-cycle': 'warn',
     'import/no-unresolved': 'error',
+    'import/prefer-default-export': 'off',
     'import/order': [
         'error',
         {

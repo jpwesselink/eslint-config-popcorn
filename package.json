@@ -22,6 +22,7 @@
     "typescript.js",
     "typescript-react.js",
     "rules",
+    "scripts",
     "tsconfig.json"
   ],
   "publishConfig": {

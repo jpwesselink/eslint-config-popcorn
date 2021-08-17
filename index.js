@@ -1,3 +1,3 @@
-module.exports = {
-    extends: ['./javascript.js'],
-};
+require('./scripts/check-for-update');
+
+module.exports = {};

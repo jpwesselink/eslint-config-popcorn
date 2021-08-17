@@ -18,6 +18,7 @@
     "pt": "./bin/install-peerdeps.js"
   },
   "files": [
+    "index.js",
     "javascript.js",
     "typescript.js",
     "typescript-react.js",

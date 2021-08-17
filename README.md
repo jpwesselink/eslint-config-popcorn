@@ -10,7 +10,7 @@
  | @typescript-eslint/parser         |            |  x         |  x               |
  | eslint                            |  x         |  x         |  x               |
  | eslint-config-airbnb              |            |            |  x               |
- | eslint-config-airbnb-base         |  x         |  x         |                  |
+ | eslint-config-airbnb-base         |  x         |  x         |  x               |
  | eslint-config-prettier            |  x         |  x         |  x               |
  | eslint-import-resolver-typescript |            |  x         |  x               |
  | eslint-plugin-import              |  x         |  x         |  x               |

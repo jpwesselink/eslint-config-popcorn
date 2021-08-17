@@ -1,4 +1,7 @@
-require('./scripts/check-for-update');
+const updateNotifier = require('update-notifier');
 
-console.log('yo!');
+const pkg = require('./package.json');
+
+updateNotifier({ pkg }).notify();
+
 module.exports = {};

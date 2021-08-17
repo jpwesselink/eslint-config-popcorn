@@ -6,7 +6,7 @@ module.exports = {
     parserOptions: { ecmaVersion: 2020 },
     extends: [
         './index.js',
-        'airbnb/base',
+        'airbnb-base',
         'eslint:recommended',
         'plugin:import/recommended',
         'prettier',

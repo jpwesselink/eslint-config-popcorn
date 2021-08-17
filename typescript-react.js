@@ -15,6 +15,7 @@ module.exports = {
             },
             plugins: ['@typescript-eslint', 'react', 'jsx-a11y'],
             extends: [
+                'airbnb',
                 'airbnb/hooks',
                 'plugin:@typescript-eslint/recommended',
                 'plugin:@typescript-eslint/recommended-requiring-type-checking',

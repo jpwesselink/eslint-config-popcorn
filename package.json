@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-popcorn",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Eslint configuration for using ESLint, TypeScript, Airbnb's ESLint config and Prettier together for Node.js",
   "author": "JP Wesselink <jpwesselink@gmail.com>",
   "homepage": "https://github.com/jpwesselink/eslint-config-popcorn#readme",

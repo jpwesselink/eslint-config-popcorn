@@ -1,4 +1,6 @@
-# `eslint-config-popcorn`
+# DO NOT USE. THIS PROJECT WILL BE REMOVED. `eslint-config-popcorn` 
+
+
 
 > [ESLint](https://eslint.org/), [TypeScript](https://github.com/typescript-eslint/typescript-eslint), [Airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) and [Prettier](https://prettier.io/) configurations for use with Node.js and React
 
